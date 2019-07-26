@@ -1,0 +1,38 @@
+{
+  "name": "karma-sandbox-two",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=8.1"
+  },
+  "scripts": {
+    "testBasic": "karma start --single-run --browsers ChromeHeadless test/basic/conf/basic.conf.js"
+  },
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "contributors": [],
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "1.8.8",
+    "del": "3.0.0",
+    "gulp": "4.0.0",
+    "gulp-jasmine-browser": "4.1.0",
+    "jasmine-core": "3.3.0",
+    "karma": "4.0.0",
+    "karma-coverage": "1.1.2",
+    "karma-fixture": "0.2.6",
+    "karma-html2js-preprocessor": "1.1.0",
+    "karma-htmlfile-reporter": "0.3.8",
+    "karma-jasmine": "2.0.1",
+    "karma-junit-reporter": "1.2.0",
+    "karma-puppeteer-launcher": "1.0.4",
+    "karma-chrome-launcher": "2.2.0",
+    "plugin-error": "1.0.1",
+    "puppeteer": "1.12.2",
+    "shelljs": "0.8.3"
+  }
+}

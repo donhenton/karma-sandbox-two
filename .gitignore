@@ -1,0 +1,11 @@
+/nbproject/
+/node_modules/
+/npm-debug.log
+coverage/
+karma_html/**/
+html_out/
+junit/
+html_coverage/
+/*.log
+/mb.log
+/reports/
