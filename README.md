@@ -1,4 +1,4 @@
-* Puppeteer and Karma
+# Puppeteer and Karma
 
 Requires node version > 8
 
