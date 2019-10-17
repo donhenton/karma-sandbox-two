@@ -28,5 +28,16 @@ For Chrome and Firefox
     "karma-firefox-launcher": "1.1.0",
     karma-chrome-launcher will cover Chrome and ChromeHeadless
 
+## Switching to Debug Mode
 
+To debug the actual environment of the Karma server (peek into how the html actually looks):
 
+* switch browser from 'ChromeHeadless' to 'Chrome' in karma conf file
+* set singleRun to false
+* when window remains click on the debug button
+* then inspect the html
+
+## Including css/html
+
+* see the files and proxies section of the karma conf file
+* set log level to debug to see if the img or css files return a 404

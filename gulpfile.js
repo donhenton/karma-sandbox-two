@@ -5,26 +5,24 @@ var del = require('del');
 
 
 function cleanFunction(done) {
-  del(['reports']);
-  done();
-}
- 
- gulp.task('testBasic', function (done) {
-
-  return new karma.Server({
-    configFile: __dirname + '/test/basic/conf/basic.conf.js',
-    singleRun: true
-  }, function () {
-    console.log("bite me 1");
+    del(['reports']);
     done();
-    console.log("bite me 2");
-  }).on('error', function (err) {
-    throw err;
-  }).start();
+}
+
+gulp.task('testBasic', function(done) {
+
+    return new karma.Server({
+        configFile: __dirname + '/test/basic/conf/basic.conf.js'
+            //     singleRun: true set in conf file
+    }, function() {
+        done();
+    }).on('error', function(err) {
+        throw err;
+    }).start();
 });
 
- 
-  
+
+
 
 /*
 gulp.task('testBasic', function (done) {
