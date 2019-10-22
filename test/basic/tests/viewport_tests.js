@@ -7,7 +7,7 @@ function pauseFunction() {
 }
 
 
-describe("css_img_tests.js", function() {
+describe("viewport_tests.js", function() {
     beforeAll(function() {
         fixture.setBase('test/basic/fixtures')
     });
