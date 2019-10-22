@@ -33,11 +33,12 @@ For Chrome and Firefox
 To debug the actual environment of the Karma server (peek into how the html actually looks):
 
 * switch browser from 'ChromeHeadless' to 'Chrome' in karma conf file
-* set singleRun to false
+* set singleRun to false (either in conf or gulp file or both)
 * when window remains click on the debug button
 * then inspect the html
 
-## Including css/html
+## Including css/images
 
 * see the files and proxies section of the karma conf file
 * set log level to debug to see if the img or css files return a 404
+* tests need to pause a bit as css effects are not immediate
