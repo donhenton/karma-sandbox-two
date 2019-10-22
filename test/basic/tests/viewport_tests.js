@@ -46,7 +46,7 @@ describe("css_img_tests.js", function() {
 
     it('viewport change causes width change', function(done) {
 
-        viewport.set(300, 300); // viewport variable throws error
+        viewport.set(300, 300);
         pauseFunction().then(() => {
             const testDiv = $('.box-item');
             const t = testDiv.css('width');
