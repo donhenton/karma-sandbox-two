@@ -13,7 +13,7 @@ module.exports = function(config) {
         concurrency: Infinity,
         // frameworks to use
         // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-        frameworks: ['jasmine', 'fixture'],
+        frameworks: ['jasmine', 'fixture', 'viewport'],
         // list of files / patterns to load in the browser
         // in the file section below
         // can include libs like jquery here
